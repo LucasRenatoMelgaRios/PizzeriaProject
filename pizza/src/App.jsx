@@ -1,13 +1,14 @@
-import { LoginForm } from './components/LoginForm'
+//import { LoginForm } from './components/LoginForm'
 import './App.css'
-import { RegisterForm } from './components/RegisterForm'
+//import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { MyRouters } from './routers/routes';
+//import { RegisterForm } from './components/RegisterForm'
 
 function App() {
 
   return (
     <>
-      <RegisterForm/>
-      <LoginForm/>
+      <MyRouters/>
     </>
   )
 }
