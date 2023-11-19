@@ -94,8 +94,8 @@ export const LoginForm = () => {
           <Title>Login</Title>
           <form>
             <p></p>
-            <Input type="text" placeholder="some@gmail.com" />
-            <Input type="password" placeholder="password" />
+            <Input type="text" placeholder="some@gmail.com" required />
+            <Input type="password" placeholder="password" required/>
             <ForgotPasswordLink href="#">Forgot your password?</ForgotPasswordLink>
             <Button type="submit">Log in</Button>
           </form>

@@ -77,10 +77,10 @@ export const RegisterForm = () => {
           <Title>Register here</Title>
           <form>
             <InputLabel>First Name⭐</InputLabel>
-            <Input type="text" placeholder="e.g John" />
+            <Input type="text" placeholder="e.g John" required/>
   
             <InputLabel>Surname⭐</InputLabel>
-            <Input type="text" placeholder="e.g Ramirez" />
+            <Input type="text" placeholder="e.g Ramirez" required/>
   
             <SelectLabel>Gender:</SelectLabel>
             <Select>
@@ -89,25 +89,25 @@ export const RegisterForm = () => {
             </Select>
   
             <InputLabel>Email Address⭐</InputLabel>
-            <Input type="email" placeholder="" />
+            <Input type="email" placeholder="" required/>
   
             <InputLabel>ID number</InputLabel>
             <Input type="text" placeholder="Accumulate bonus points" />
   
             <InputLabel>Phone Number⭐</InputLabel>
-            <Input type="text" placeholder="So we can contact you" />
+            <Input type="text" placeholder="So we can contact you" required/>
   
             <InputLabel>Password⭐</InputLabel>
-            <Input type="password" placeholder="" />
+            <Input type="password" placeholder="" required/>
   
             <InputLabel>Password Confirmation⭐</InputLabel>
-            <Input type="password" placeholder="" />
+            <Input type="password" placeholder="" required/>
   
             <InputLabel>Birthday⭐</InputLabel>
             <div style={{ display: 'flex', marginBottom: '10px' }}>
-              <InputLabel style={{ flex: 1, marginRight: '5px' }}>Day:</InputLabel>
-              <InputLabel style={{ flex: 1, marginRight: '5px' }}>Month:</InputLabel>
-              <InputLabel style={{ flex: 1 }}>Year:</InputLabel>
+              <InputLabel style={{ flex: 1, marginRight: '5px' }}required>Day:</InputLabel>
+              <InputLabel style={{ flex: 1, marginRight: '5px' }}required>Month:</InputLabel>
+              <InputLabel style={{ flex: 1 }}required>Year:</InputLabel>
             </div>
   
             <div style={{ display: 'flex', marginBottom: '10px' }}>

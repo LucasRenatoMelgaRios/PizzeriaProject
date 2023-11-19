@@ -5,6 +5,7 @@ import './App.css'
 //import { RegisterForm } from './components/RegisterForm'
 import { Card } from './components/Card'
 //import { ProductList } from './data/ProductList'
+import { ConfirmPurchase } from './components/ConfirmPurchasePage';
 
 function App() {
   const products = [
@@ -27,7 +28,7 @@ function App() {
 
   return (
     <>
-      <div>
+      {/* <div>
       {products.map((product) => (
         <Card
           key={product.id}
@@ -37,7 +38,11 @@ function App() {
           image={product.image}
         />
       ))}
-    </div>
+    </div> */}
+
+        <ConfirmPurchase>
+
+        </ConfirmPurchase>
     </>
   )
 }
